@@ -10,6 +10,7 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
+  background-color: rgb(248, 250, 250);
 }
 
 @media (min-width: 992px) {
@@ -20,18 +21,17 @@ body {
 }
 
 h1,
-h2,
-h3,
+/* h2, */
+/* h3, */
 h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  /* color: #343a40; */
-  /* color: rgb(15, 112, 112); */
-  color: rgb(26, 56, 56);
-  /* color: rgb( 63, 96, 83); */
+  /* color: rgb(21, 78, 78); */
+  /* color: rgb(26, 56, 56); */
+  color: rgb(42, 148, 148);
 }
 
 h1 {
@@ -40,31 +40,41 @@ h1 {
 }
 
 h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(26, 100, 100);
+  font-weight: 800;
   font-size: 3.5rem;
 }
 
 h3 {
   font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  color:  rgb(30, 182, 182);
+  font-weight: 600;
 }
 
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  text-justify: auto;
+  margin-right: 20%;
 }
 
 .subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  /* font-family: 'Saira', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
 }
 
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
+  /* background-color: #5d97d1; */
+  background-color: #b6bdc5;
+  color: #fff ;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -78,25 +88,32 @@ p.lead {
 
 .social-icons a:hover {
   /* background-color: #BD5D38; */
-  background-color: rgb(207, 97, 99)
+  background-color:  rgb(199, 223, 164);
+  color: #fff;
 }
 
 .dev-icons {
   font-size: 3rem;
+  /* color:  #b6bdc5; */
+  color: rgb(163, 209, 94);
+  border-radius: 100%;
 }
 
 .dev-icons .list-inline-item i:hover {
   /* color: #BD5D38; */
-  color: rgb(207, 97, 99);
+  /* color: rgb(207, 97, 99); */
+  /* color: rgb(199, 223, 164); */
+  color:  #b6bdc5;
 }
 
 .icon-project{
   font-size: 2.5rem;
-  color: rgb(50, 204, 153);
+  /* background-color: #b6bdc5; */
+  color: #b6bdc5;
 }
 
 .icon-project:hover{
-  color: rgb(207, 97, 99);
+  color:  rgb(199, 223, 164);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -135,10 +152,11 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     /* border: 0.5rem solid rgba(255, 255, 255, 0.2); */
-    border: 0.5rem solid rgba(255, 255, 255, 0.837);
+    /* border: 0.5rem solid rgba(255, 255, 255, 0.837); */
+    border:  0.5rem solid  rgb(225, 250, 187);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -184,6 +202,7 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+    /* min-width: 10rem; */
   }
 }
 
@@ -195,10 +214,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  /* background-color: #BD5D38 !important; */
-  background-color: rgb(207, 97, 99) !important;
+  background-image:  linear-gradient(360deg, rgb(26, 100, 100) , rgb(103, 201, 201)) !important;
   /* background-color: rgb(190, 63, 65) !important; */
-  /* background-image: url("../img/nav_background.PNG"); */
+  /* background-image: url("../img/calla.PNG"); */
   /* Add the blur effect */
   /* opacity: 0.8;
   top: 0;
@@ -207,8 +225,11 @@ section.resume-section .resume-item .resume-date {
   right: 0;
   position: absolute;
   z-index: -1; */
-  background-size: cover;
-  background-position: 85% ;
+  /* background-size: cover;
+  background-position-y: -10%;
+  background-position-x: 80%; */
+  /* background-position-x: 13% ;
+  background-position-y: 30%; */
   /* background-position-x: 85%; */
   /* background-position-x: 25%; */
  
@@ -217,6 +238,8 @@ section.resume-section .resume-item .resume-date {
 .text-primary {
   /* color: rgb(175, 70, 29) !important; */
   color: rgb(207, 97, 99) !important;
+  /* color: rgb(116, 179, 21) !important; */
+  font-weight: 500;
 }
 
 a {
@@ -226,11 +249,29 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  /* color: #824027; */
-  /* color: rgb(189, 51, 54); */
-  color: rgb(207, 97, 99);
+  color: rgb(135, 206, 28);
+  /* color: rgb(207, 97, 99); */
 }
 
+.last-name{
+  color: rgb(42, 148, 148);
+}
+
+.first-name{
+  color: rgb(135, 206, 28);
+  /* color: rgb(42, 148, 148); */
+}
+
+.email{
+  color: rgb(36, 126, 126);
+}
+
+/* .lavender{
+  background-image: url("../img/lavender.PNG");
+  background-position-x: 50%;
+  background-position-y: 40%;
+  height: 200px;
+} */
 
 ColorPalette {
 

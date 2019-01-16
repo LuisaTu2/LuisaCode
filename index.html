@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> LuisaP - Resume</title>
+    <title> LuisaP </title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+    <!-- My Selections -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <!-- <link href="css/resume.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/resume.css">
@@ -26,6 +29,8 @@
 
   <body id="page-top">
 
+
+    <!-- SIDE NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Luisa Pegoraro</span>
@@ -42,6 +47,9 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
@@ -51,28 +59,26 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li> -->
+          <!-- <li class="lavender">   </li> -->
         </ul>
       </div>
     </nav>
 
     <div class="container-fluid p-0">
 
+
+      <!-- ABOUT -->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Luisa
-            <span class="text-primary">Pegoraro</span>
+          <h1 class="mb-0">
+            <span class="first-name"> Luisa </span>
+            <span class="last-name">Pegoraro</span>
           </h1>
           <div class="subheading mb-5"> 
             <i class="far fa-envelope"></i>
-            <a href="mailto:name@email.com">luisa.pegoraro@email.com</a>
+            <a href="mailto:name@email.com" class="email">luisa.pegoraro@gmail.com</a>
           </div>
           
           <p class="lead mb-5">
@@ -86,31 +92,71 @@
             <a href="https://github.com/LuisaTu2">
               <i class="fab fa-github"></i>
             </a>
-            <!-- <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a> -->
           </div>
         </div>
       </section>
 
       <hr class="m-0">
+      
+      <!-- SKILLS -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+          <div class="my-auto">
+            <h2 class="mb-2">Skills</h2>
+  
+            <div class="subheading mt-4">Front End Languages &amp; Tools</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="fab fa-html5" title="HTML5"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-css3-alt" title="CSS3"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-js-square" title="JavaScript"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-react" title="React.js"></i>
+              </li>
+            </ul>
+            
+            <div class="subheading mt-4">Back End Tools</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="fab fa-node-js" title="Node.js"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-npm" title="npm"></i>
+              </li>
+            </ul>
 
+            <div class="subheading mt-4">General Programming</div>
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="fab fa-python" title="Python"></i>
+              </li>
+              <li class="list-inline-item">
+                  <i class="fab fa-git-square" title="Git"></i>
+                </li>
+            </ul>
+  
+        </section>
+
+      <hr class="m-0">
+
+
+      <!-- PROJECTS   -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
           <div class="my-auto">
-            <h2 class="mb-5">Projects</h2>
+            <h2 class="mb-3">Projects</h2>
   
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <h3 class="mb-0">Vino  </h3>
+              <div class="resume-content mr-4">
+                <h3 class="mb-1">Vino  </h3>
                 <a href="https://github.com/LuisaTu2/vino">
                   <i class="fab fa-github icon-project"></i>
                 </a>
                 <i class="fab fa-react icon-project"></i> 
                 <i class="fab fa-js-square icon-project"></i>
-                <!-- <div class="subheading mb-3"> REACT, JS </div> -->
                 <p>
                   <ul style="list-style-type:square">
                     <li>  LCBO beverages catalogue website built with React and LCBO API. </li>
@@ -119,20 +165,16 @@
                   </ul>
                 </p>
               </div>
-              <!-- <div class="resume-date text-md-right">
-                <span class="text-primary">Nov 2015 - Sept 2016</span>
-              </div> -->
             </div>
   
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
-                <h3 class="mb-0">EarthQuakes </h3>
+                <h3 class="mb-1">EarthQuakes </h3>
                 <a href="https://github.com/LuisaTu2/earthquakes">
                     <i class="fab fa-github icon-project"></i>
                   </a>
                 <i class="fab fa-node-js icon-project"></i>
                 <i class="fab fa-js-square icon-project"></i>
-                <!-- <div class="subheading mb-3"> Node, JS </div> -->
                 <p>
                   <ul style="list-style-type:square">
                     <li> Earthquakes epicentres visualization via Google Maps. </li>
@@ -141,17 +183,16 @@
                   </ul>
                 </p>
               </div>
-            </div>
+            </div> <!-- End of resume-item -->
   
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
-                <h3 class="mb-0">To-Do-List </h3>
+                <h3 class="mb-1">To-Do-List </h3>
                 <a href="https://github.com/LuisaTu2/to-do-list">
                     <i class="fab fa-github icon-project"></i>
                   </a>
                 <i class="fab fa-vuejs icon-project"></i>
                 <i class="fab fa-js-square icon-project"></i>
-                <!-- <div class="subheading mb-3">MPAC via Adastra Corporation</div> -->
                 <p>
                     <ul style="list-style-type:square">
                       <li> Clean UI for easily managing things to do. </li>
@@ -163,14 +204,13 @@
   
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
-                <h3 class="mb-0">Cafe </h3>
+                <h3 class="mb-1">Cafe </h3>
                 <a href="https://github.com/LuisaTu2/cafe-website">
                     <i class="fab fa-github icon-project"></i>
                   </a>
                 <i class="fab fa-node-js icon-project"></i>
                 <i class="fab fa-vuejs icon-project"></i>
                 <i class="fab fa-js-square icon-project"></i>
-                <!-- <div class="subheading mb-3"></div> -->
                 <p>
                    <ul style="list-style-type:square">
                       <li> Coffee shop sample website built with Javascript and Vue. </li>
@@ -183,12 +223,11 @@
   
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
                 <div class="resume-content mr-auto">
-                  <h3 class="mb-0">Picture Memory Game </h3>
+                  <h3 class="mb-1">Picture Memory Game </h3>
                   <a href="https://github.com/LuisaTu2/picture_memory_game">
                       <i class="fab fa-github icon-project"></i>
                     </a>
                   <i class="fab fa-js-square icon-project"></i>
-                  <!-- <div class="subheading mb-3"> </div> -->
                   <p>
                     <ul style="list-style-type:square">
                         <li> Interactive card-flipping game written in pure Javascript.</li>
@@ -196,14 +235,12 @@
                   </p>
                 </div>
               </div>
+          </div>  
+      </section>
   
-          </div>
-  
-        </section>
-  
-        <hr class="m-0">
+      <hr class="m-0">
 
-
+      <!-- PROFESSIONAL EXPERIENCE -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
@@ -293,6 +330,7 @@
 
       <hr class="m-0">
 
+      <!-- EDUCATION -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
@@ -312,8 +350,8 @@
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">University of Waterloo</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <p>Honours Physics, Astrophysics Specialization</p>
+              <div class="subheading mb-3">B.Sc. Honours Physics</div>
+              <!-- <p>Honours Physics, Astrophysics Specialization</p> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Jan 2009 - Apr 2011</span>
@@ -325,118 +363,20 @@
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-            <!-- <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li> -->
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <!-- <li class="list-inline-item">
-              <i class="fab fa-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-grunt"></i>
-            </li> -->
-            <li class="list-inline-item">
-              <i class="fab fa-npm"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-python"></i>
-            </li>
-          </ul>
-
-          <!-- <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div> -->
-      </section>
-
-      <hr class="m-0">
-
+      <!-- EDUCATION -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+          <!-- <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p> -->
+          <!-- <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
+          <p> I regularly practice yoga, ballet and tango.</p>
         </div>
       </section>
 
       <hr class="m-0">
-
-      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section> -->
-
     </div>
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
